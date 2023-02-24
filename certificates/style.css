@@ -1,0 +1,50 @@
+*{
+  font-family: monospace;
+}
+body{
+  background-image: url("bck2.png");
+}
+h2{
+  margin: 25px 0px 10px 0px;
+}
+.testout{
+  border-bottom: 5px solid goldenrod;
+}
+.mta{
+  border-bottom: 5px solid #21bcee;
+}
+.misc{
+  border-bottom: 5px solid #48aa4d;
+}
+.divider{
+  width: 50%;
+  background: grey;
+  margin: 10px auto;
+  height: 5px;
+}
+.thumbnail{
+  text-align: center;
+}
+.thumbnail img{
+  border: 2px solid grey;
+  width: 100%;
+  box-shadow: 0px;
+  transition: all .25s ease-out;
+}
+
+.thumbnail img:hover{
+  width: 95%;
+  border: 2px solid black;
+  box-shadow: 5px 5px 18px #888888;
+
+}
+
+.row{
+  padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .col-md-4 {
+    padding-bottom: 20px !important;
+  }
+}
